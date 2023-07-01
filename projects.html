@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Max S</title>
+  <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+  <script defer src="./js/Swup.umd.js"></script>
+  <script src="./js/SwupSlideTheme.min.js"></script>
+
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script defer src="js/script.js"></script>
+  <link href="css/main.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <div class="">
+    <div class="row sticky-top sidebar d-none d-md-block opacity-1 bg-secondary text-light" id="sidebar">
+      <nav class="p-4" style="min-height: 100%;">
+
+
+        <div class="d-flex flex-column flex-shrink-0 p-0 h-100 ">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 link-dark text-decoration-none">
+
+            <h5 class="display-5 name d-block mx-auto text-center p-0 m-0">Max S.</h5>
+          </a>
+          <hr class="p-0 pb-1">
+          <ul class="nav nav-pills mb-auto ">
+            <li class="nav-item mb-2 w-100">
+              <a href="/" class="nav-link" aria-current="page">
+                Home
+              </a>
+            </li>
+            <li class="nav-item mb-2 w-100 ">
+              <a href="/about" class="nav-link">
+                About
+              </a>
+            </li>
+            <li class="nav-item mb-2 w-100 active">
+              <a href="/projects" class="nav-link">
+                Projects
+              </a>
+            </li>
+            <li class="nav-item mb-2 w-100">
+              <a href="/contact" class="nav-link">
+                Contact
+              </a>
+            </li>
+
+          </ul>
+          <hr>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+    <div class="p-0">
+      <div id="swup" class="transition-fade">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary d-block d-md-none pb-5" id="dropdownnav">
+          <div class="container-fluid bg-secondary">
+            <a href="index.html" class="d-flex align-items-center mb-md-0 link-dark text-decoration-none">
+
+              <h5 class="name d-block mx-auto text-center p-0 m-0 fs-1">Max S.</h5>
+            </a>
+            <button class="navbar-toggler" id="dropdown-toggle" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav" id="mobilenav">
+                <li class="nav-item mt-3">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about" id="aboutmobile">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="maincontent">
+          <main class="container-fluid">
+
+
+            <div class="row d-flex justify-content-center">
+
+              <div id="" class="p-0">
+                <h1 class="display-1 mt-4 text-center">Here's the stuff I've made.</h1>
+                <p class="text-center fs-4 py-3 p-3">Some of these are school projects, some of it is freelance work.
+                  Most of it is just a taste of what I can do.<br>See one you like? I can re-use and modify any of these
+                  for your idea, or build it from scratch.</p>
+
+
+              </div>
+
+              <div class="card mb-3 col-11 col-lg-5 p-0 me-lg-3 sitecard">
+                <a href="projectsfolder/cafe/src/Index.html">
+                  <img src="images/cafe.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Matcha Cafe</h5>
+                    <p class="card-text">
+                      The final project for my javascript class. Includes a working storefront, cart, and checkout
+                      system. Uses bootstrap, jquery, and some hand-written javascript that works with web
+                      storage.<br>(Is not hooked up to an actual order system)
+                    </p>
+                    <p class="card-text"><small class="text-muted">School Project, 2022</small></p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card col-11 col-lg-5 mb-3 p-0">
+                <a href="projectsfolder/tto/index.html">
+                  <img src="images/tto.png" class="card-img-top w-100" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">TTO Hunting</h5>
+                    <p class="card-text">My first freelance job post-graduation. A website advertising a moving hunting
+                      operation that plans to open in 2024. Built with bootstrap. Worked with client who was mostly
+                      unfamiliar with the web fair and honestly. Not fully complete, launching around August.</p>
+                    <p class="card-text"><small class="text-muted">Freelance Hire, 2023</small></p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card col-11 col-lg-5 sitecard p-0 me-lg-3 mb-3">
+                <a href="projectsfolder/rvc/final.html">
+                  <img src="images/rvc.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Rock Valley College Mock Site</h5>
+                    <p class="card-text">The final project for my introductory web programming class. Built with basic
+                      HTML and CSS, all hand-written. Designed to match, to the best of my ability, the design standards
+                      RVC utilizes.</p>
+                    <p class="card-text"><small class="text-muted">School Project, 2021</small></p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card col-11 col-lg-5 sitecard p-0 mb-3">
+                <a href="projectsfolder/DW project/index.html">
+                  <img src="images/paul.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dreamweaver Portfolio Site</h5>
+                    <p class="card-text">A project from my advanced web programming class. Built entirely using adobe
+                      dreamweaver. Made following instructions intended to introduce me to all of DW's features. Assets
+                      inside of site were provided in advance.</p>
+                    <p class="card-text"><small class="text-muted">School Project, 2022</small></p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card col-11 col-lg-5 sitecard p-0">
+                <a href="projectsfolder/ocean/ocean.html">
+                  <img src="images/ocean.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Design Project, "Ocean"</h5>
+                    <p class="card-text">A silly site, from the perspective of some sort of organization run by fish,
+                      intended to showcase my skills at web design. Made for my introductory web programming class using
+                      base html and css.</p>
+                    <p class="card-text"><small class="text-muted">School Project, 2021</small></p>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</body>
+</html>

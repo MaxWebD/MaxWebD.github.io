@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto:wght@400;900&family=Satisfy&display=swap');
+
+
+/* Transition Css */
+
+#sidebar {
+    transition: 1000ms;
+}
+
+.transition-fade {
+    opacity: 1;
+    transition: 1000ms;
+}
+
+html.is-animating .transition-swipe { 
+    opacity: 0;
+    transition: 1000ms;
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    transition: 100;
+}
+
+.transition-swipe {
+    opacity: 1;
+    transition: 1000ms;
+
+}
+
+
+
+
+
+nav {
+    height: 10vh;
+    margin: 0;
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    width: 100%;
+
+
+
+}
+
+
+body p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+.card-header {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+    text-shadow: 1px 1px 0px pink;
+}
+
+.gradient {
+
+position: absolute;
+    width: 100%; height: 100vh; overflow: hidden;
+  background: linear-gradient(225deg, #55ebcf, #F2668B);
+  background: -webkit-linear-gradient(225deg, #55ebcf, #F2668B);
+  background-size: 200% 200%;
+  animation: Gradient 100s ease-in-out infinite;
+  -webkit-animation: GradientAnimation 100s ease-in-out infinite;
+  background-position: var(--backgroundx) var(--backgroundy);
+	transition: background-position 0.1s cubic-bezier(0.37, 0, 0.63, 1);
+
+}
+
+
+
+/* main page */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+main {
+    width: 100%;
+    position: relative;
+    margin: 0;
+
+}
+
+#entry {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    
+    margin: 0%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    width: 100%;
+    font-family: 'Satisfy', cursive;
+
+
+    text-shadow: 1px 1px 0px pink;
+    font-size: 5em;
+
+}
+
+h2 {
+    margin: 0;
+    width: 100%;
+    font-family: 'Satisfy', cursive;
+
+
+    text-shadow: 1px 1px 0px #55ebcf;
+    font-size: 5em;
+
+}
+
+#entry h1 {
+    color: white;
+    text-shadow: 3px 3px 0px #000000;
+}
+
+
+
+#entry h2 {
+    margin: 0;
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    text-shadow: 2px 2px 1px #000000;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px #55ebcf;
+}
+
+#entry button {
+    background-color: white;
+    color: #000000;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    transition: 200ms;
+    border-radius: 0;
+}
+
+#entry button:hover {
+    background-color: pink;
+    color:#55ebcf;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+
+
+}
+
+#entry button {
+
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+/* nav styles */
+
+.name {
+    color: white;
+    text-shadow: 1px 1px 0px pink;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+nav {
+    width: 100%;
+    color: black;
+    filter: drop-shadow(2px 2px 0px #9effed);
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+
+  
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+#sidebar li {
+
+    border-radius: 80px;
+
+    background-color: #cdfff6;
+    transition: 100ms;
+    
+    cursor:pointer;
+    pointer-events: auto;
+
+    }
+
+#sidebar li:hover {
+    scale: 1.05;
+    filter: drop-shadow(3px 3px 0px pink);
+    cursor: pointer;
+}
+
+#sidebar .active {
+
+    filter: drop-shadow(3px 3px 0px #cdfff6);
+    background-color: pink;
+  
+}
+
+#sidebar .active:hover {
+    scale: 1;
+    filter: drop-shadow(3px 3px 0px #cdfff6);
+    cursor: default;
+}
+
+
+#dropdownnav {
+
+
+    transition: ease-in-out, 500ms;
+}
+
+nav li {
+    width: 25%;
+    border: #000000;
+ 
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#mobilenav .active{
+    filter: drop-shadow(2px 2px 1px #cdfff6);
+}
+
+
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 100%;
+    
+    
+  }
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .maincontent {
+    margin-left: 0;
+    }
+
+
+}
+
+
+
+/* cards css */
+
+@media screen and (min-width: 768px) {
+
+      
+  .maincontent {
+    padding-left: 200px;
+
+
+  }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+    
+}
+
+.card {
+    transition: 500ms;
+}
+
+.accordion-header {
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+.accordion-button {
+    font-size: 0.5em;
+    font-weight: 900;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Drinks</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/splide.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/css" href="">
+</head>
+<body>
+    <nav class="navbar navbar-default sticky-top">
+        <div class="container-fluid" id="navbar">
+            <div class="navbar-brand"><a href="Index.html"><img src="images/green-g1fa902565_640.png"></a></div>
+            <ul class="navbar nav mx-auto">
+                <li class="nav-item ps-3 pe-2   "><a class="nav-link " href="Index.html"><button class="btn btn-outline-success me-2" type="button">Home</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="drinks.html"><button class="btn btn-outline-success me-2" type="button">Drinks</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="about.html"><button class="btn btn-outline-success me-2" type="button">About Us</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="contact.html"><button class="btn btn-outline-success me-2" type="button">Contact</button></a></li>
+            </ul>
+            <a class="nav-link " href="cart.html"><button class="btn btn-outline-success me-2" type="button">Cart <span id="cartNum" class="hidden"></span></button></a>
+
+        </div>
+    </nav>
+
+    <h1>Our Drinks</h1>
+   
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                
+                    <div class="item">
+                       
+                        <img src="images/coffee.jpg" class="img-fluid" alt="coffee and matcha latte"/>
+                        <a href="images/coffee.jpg" data-lightbox="drinks" data-title="Double Latte Combo">
+                        <p class="title">Double Latte Combo</p>
+                        <p class="order title">7.99$</p>
+                            </a>
+                        <div class="overlay ratio ratio-1x1"></div>
+                    
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order test num" placeholder="Amount" aria-label="Number of Drinks" id="drink1Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id= "drink1" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="col-4">
+                                 <div class="item">
+
+                        <img src="images/beach.jpg" class="img-fluid" alt="strawberry slush"/>
+                        <a href="images/beach.jpg" data-lightbox="drinks" data-title="Strawberry Slush">
+   
+                        <p class="title">Strawberry Slush</p>
+                        <p class="order title">4.99$</p>
+                    </a>
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order num" placeholder="Amount" aria-label="Number of Drinks"id="drink2Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id= "drink2" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+             
+            </div>
+
+            <div class="col-4">
+               
+                    <div class="item">
+
+                        <img src="images/tea.jpg" class="img-fluid" alt="specialty tea"/>
+                        <a href="images/tea.jpg" data-lightbox="drinks" data-title="Specialty Tea">
+                        <p class="title">Specialty Tea</p>
+                        <p class="order title">3.99$</p>
+                    </a>
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order num" placeholder="Amount" aria-label="Number of Drinks" id="drink3Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id="drink3"type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+               
+            </div>
+
+
+        </div>
+
+        <div class="row second">
+            <div class="col-4">
+                 <div class="item">
+
+                        <img src="images/cap.jpg" class="img-fluid" alt="cappuccino"/>
+                        <a href="images/cap.jpg" data-lightbox="drinks" data-title="Cappuccino">
+                
+                        <p class="title">Cappuccino</p>
+                        <p class="order title">5.99$</p>
+                    </a>
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order" placeholder="Amount" aria-label="Number of Drinks" id="drink4Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id="drink4" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+              
+            </div>
+
+            <div class="col-4">
+       
+                    <div class="item">
+
+                        <img src="images/lem.jpg" class="img-fluid" alt="Lemonade"/>
+                        <a href="images/lem.jpg" data-lightbox="drinks" data-title="Lemonade">
+                        <p class="title">Lemonade</p>
+                        <p class="order title">2.99$</p>
+                    </a>
+                        
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order" placeholder="Amount" aria-label="Number of Drinks" id="drink5Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add"  id="drink5" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+              
+            </div>
+
+            <div class="col-4">
+        
+                    <div class="item">
+
+                        <img src="images/boba.jpg" class="img-fluid" alt="Boba Tea"/>
+                        <a href="images/boba.jpg" data-lightbox="drinks" data-title="Boba Tea">
+                        <p class="title">Boba Tea</p>
+                        <p class="order title">8.99$</p>
+                    </a>
+                        
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order" placeholder="Amount" aria-label="Number of Drinks" id="drink6Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id="drink6" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+          
+            </div>
+
+
+        </div>
+
+        <div class="row second">
+            <div class="col-4">
+                                <div class="item">
+
+                        <img src="images/hor.jpg" class="img-fluid" alt="Horchata"/>
+                        <a href="images/hor.jpg" data-lightbox="drinks" data-title="Horchata">
+  
+                        <p class="title">Horchata</p>
+                        <p class="order title">4.99$</p>
+                        
+                    </a>
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order" placeholder="Amount" aria-label="Number of Drinks" id="drink7Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id="drink7" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+          
+            </div>
+
+            <div class="col-4">
+      
+                    <div class="item">
+
+                        <img src="images/str.jpg" class="img-fluid" alt="Coffee"/>
+                        <a href="images/str.jpg" data-lightbox="drinks" data-title="Strong Coffee">
+                        <p class="title">Strong Blend</p>
+                        <p class="order title">4.99$</p>
+                    </a>
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order" placeholder="Amount" aria-label="Number of Drinks" id="drink8Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id="drink8" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+       
+            </div>
+
+            <div class="col-4">
+
+                    <div class="item">
+
+                        <img src="images/iced.jpg" class="img-fluid" alt="Boba Tea"/>
+                        <a href="images/iced.jpg" data-lightbox="drinks" data-title="Iced Tea">
+                        <p class="title">Iced Tea</p>
+                        <p class="order title">2.99$</p>
+                    </a>
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order" placeholder="Amount" aria-label="Number of Drinks" id="drink9Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id="drink9" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+            
+            </div>
+
+
+        </div>
+
+        <div class="row second">
+            <div class="col-4 mx-auto">
+
+                    <div class="item">
+
+                        <img src="images/wat.jpg" class="img-fluid" alt="Water"/>
+                        <a href="images/wat.jpg" data-lightbox="drinks" data-title="Water">
+                        <p class="title">Water</p>
+                        <p class="order title">99.99$</p>
+                    </a>
+                        
+                        <div class="overlay ratio ratio-1x1"></div>
+                        
+                        <div class="input-group mb-3">
+                            
+                            <input type="text" class="form-control order" placeholder="Amount" aria-label="Number of Drinks" id="drink10Qty">
+                            <div class="input-group-append">
+                                <button class="btn order bg-success text-white add" id="drink10" type="button">Add</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/drinks.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+.splide__progress__bar {
+    height: 5px;
+    background: #ccc;
+  }
+
+body{
+    margin: 0;
+    background-color: #d7ffb8;
+    box-sizing: content-box;
+}
+
+h1 {text-align: center;
+    font-size: 6em;
+margin: 18px;
+color: darkgreen ;}
+
+.navbar {
+    padding: 0;
+
+}
+
+.navbar img {
+    
+    width: 100px;
+}
+
+#navbar {
+    background-color: #aced9f;
+    
+}
+
+.navbar button {
+    font-size: 2em;
+    padding: 30px;
+}
+
+
+.content {
+    background-color: #aced9f;
+    margin-top: 20px;
+}
+
+.image {
+    width: 100%;
+
+
+}
+
+.image img {
+    height: 700px;
+}
+
+
+
+h2 {
+    font-size: 4em;
+    color: #305c42;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    position: relative;
+    height: 300px;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  
+  .item:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  
+  
+  .title {
+
+    position: relative;
+    top: -100px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  }
+  
+  .item:hover .title {
+    top: -250px;
+  }
+  
+  .order {
+    position: relative;
+    left:0;
+    top: -200px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .order a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  .item:hover .order {
+    opacity: 1;
+  }
+
+  .second {
+    margin-top: 140px;
+  }
+  
+  #cartNum { 
+    color: red;
+    background: white;
+    border-radius: 100%;
+  
+    width: 50px;
+  
+  
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .show {
+    display: inline-block;
+  }
+
+
+  table {
+    font-size: 1.75em;
+  }
+
+  #finalTotal { 
+    text-align: end;
+    width: 50%;
+    float: right;
+  }
+

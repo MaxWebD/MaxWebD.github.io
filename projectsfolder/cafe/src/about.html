@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cafe </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/splide.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/css" href="">
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-default sticky-top">
+        <div class="container-fluid" id="navbar">
+            <div class="navbar-brand"><a href="Index.html"><img src="images/green-g1fa902565_640.png"></a></div>
+            <ul class="navbar nav mx-auto">
+                <li class="nav-item ps-3 pe-2   "><a class="nav-link " href="Index.html"><button class="btn btn-outline-success me-2" type="button">Home</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="drinks.html"><button class="btn btn-outline-success me-2" type="button">Drinks</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="about.html"><button class="btn btn-outline-success me-2" type="button">About Us</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="contact.html"><button class="btn btn-outline-success me-2" type="button">Contact</button></a></li>
+            </ul>
+            <a class="nav-link " href="cart.html"><button class="btn btn-outline-success me-2" type="button">Cart <span id="cartNum" class="hidden"></span></button></a>
+
+        </div>
+    </nav>
+
+
+
+    <h1>About us</h1>
+
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="col-8 content ms-auto"> 
+                <h2 class=" m-5">Our goal</h2>
+                <p class="display-5 mx-5">We want to bring quality drinks to Rockford because Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam, reprehenderit facere distinctio dicta libero error excepturi rem assumenda amet mollitia! Cum quisquam commodi consectetur tempora, unde temporibus maxime reprehenderit!</p>
+            </div>
+            
+            <div class="col-3 content me-auto"> 
+                <div class="w-25"><img src="images/beans.jpg"></div>
+            </div>
+            
+
+
+        </div>
+
+        <div class="row">
+            
+            <div class="col-8 content ms-auto "> 
+                <h2 class=" m-5">Our team</h2>
+                <p class="display-5 mx-5">We strive to pay our workers competitve wages and Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam, reprehenderit facere distinctio dicta libero error excepturi rem assumenda amet mollitia! Cum quisquam commodi consectetur tempora, unde temporibus maxime reprehenderit!</p>
+            </div>
+            
+            <div class="col-3 content me-auto"> 
+                <div class="w-25"><img src="images/barista.jpg"></div>
+            </div>
+            
+
+
+        </div>
+
+
+
+
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/drinks.js"></script>
+    <script>
+            const splide = new Splide('.splide', {
+
+type    : 'loop',
+autoplay: 'play',
+perPage : 1,
+height: "700px",
+cover: true, 
+
+}).mount();
+    </script>
+</body>
+</html>

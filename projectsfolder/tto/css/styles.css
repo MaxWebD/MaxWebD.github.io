@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Playfair:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Playfair+Display&family=Playfair:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Playfair', serif;
+}
+
+.navcontainer {
+    justify-content: center;
+}
+
+.logoxl {
+    position: absolute;
+}
+
+.logo { 
+
+   width: 50px;
+
+}
+
+.container-fluid.navcontainer {
+    justify-content: center;
+}
+
+nav {
+    background-color: bisque;
+}
+
+.infocard {
+    border-top: none;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 1px;
+    opacity: 1;
+}
+
+#parallax-header {
+    background: #000;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0,0, 0, 0.8)
+        ), 
+    url(../images/goose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+nav.navbar-fixed-top {
+    position:fixed;
+    top:0;
+  }
+
+  body::before {
+    display:block;
+    content: '';
+    height:40px; 
+    
+  }
+
+
+
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .headerLogo {
+    padding-top: 15vw;
+  }
+
+.headerp {
+    font-size: 1em;
+}
+
+ @media only screen and (min-width: 1200px) {
+
+    .logo { 
+
+       width: 80px;
+
+    }
+
+} 
+
+.state-header {
+    background-repeat:no-repeat; 
+    background: #000;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0,0, 0, 0.8)
+        );
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+
+
+
+
+
+
+}
+
+#arkansas-header {
+    background: url(../images/arkansas.jpg);
+    background-position: 30% 30%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#kansas-header { 
+    background: url(../images/kansas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cafe </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/splide.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/css" href="">
+</head>
+<body>
+    <div class="hero">
+        <div class="splide">
+            <div class="splide__slider">
+                <div class="splide__track">
+
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="images/car1.jpg"></li>
+                        
+                        <li class="splide__slide"><img src="images/car2.jpg"></li>
+                        
+                        <li class="splide__slide"><img src="images/car3.jpg"></li>
+                    </ul>
+
+                </div>
+
+                <div class="splide__progress">
+                    <div class="splide__progress__bar">
+                    </div>
+            </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <h1>Cafe</h1>
+
+    <nav class="navbar navbar-default sticky-top">
+        <div class="container-fluid" id="navbar">
+            <div class="navbar-brand"><a href="Index.html"><img src="images/green-g1fa902565_640.png"></a></div>
+            <ul class="navbar nav mx-auto">
+                <li class="nav-item ps-3 pe-2   "><a class="nav-link " href="Index.html"><button class="btn btn-outline-success me-2" type="button">Home</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="drinks.html"><button class="btn btn-outline-success me-2" type="button">Drinks</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="about.html"><button class="btn btn-outline-success me-2" type="button">About Us</button></a></li>
+                <li class="nav-item px-2"><a class="nav-link " href="contact.html"><button class="btn btn-outline-success me-2" type="button">Contact</button></a></li>
+            </ul>
+            <a class="nav-link " href="cart.html"><button class="btn btn-outline-success me-2" type="button">Cart <span id="cartNum" class="hidden"></span></button></a>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-3 ms-auto content p-4"> 
+                <div class="img-fluid image"><img src="images/moon-g90ac30775_1920.jpg"></div>
+            </div>
+            <div class="col-6 content"> 
+                <h2 class=" m-5">Location</h2>
+                <p class="display-4 mx-5">Our location is at Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem numquam aperiam aliquam in atque libero sunt inventore mollitia alias. Voluptatum nam et eligendi a sed corporis ducimus incidunt porro.</p>
+            </div>
+            
+
+
+        </div>
+
+                <div class="row">
+
+                    <div class="col-6 content"> 
+                        <h2 class=" m-5 text-end">Thanksgiving Event</h2>
+                        <p class="display-4 mx-5 text-end">Join us on thanksgiving to Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatem numquam aperiam aliquam in atque libero sunt inventore mollitia alias. Voluptatum nam et eligendi a sed corporis ducimus incidunt porro.</p>
+                    </div>
+            <div class="col-3 me-auto content p-4"> 
+                <div class="img-fluid image"><img class="w-100" src="images/thanksgiving-ge8d94cbb8_1920.jpg"></div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/drinks.js"></script>
+    <script>
+            const splide = new Splide('.splide', {
+
+type    : 'loop',
+autoplay: 'play',
+perPage : 1,
+height: "700px",
+cover: true, 
+
+}).mount();
+    </script>
+</body>
+</html>
